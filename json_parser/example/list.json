@@ -1,0 +1,19 @@
+{
+  "record": {
+    "filter": [
+      "\r"
+    ],
+    "inner": [
+      "<ul class=\"event-horizontal-list-new\">[\\s\\S]*?</ul>",
+      "<li>[\\s\\S]*?</li>"
+    ],
+    "fetchObject": {
+      "link": "<h3><a.*?href=\"(.*?)\"",
+      "img": "<a.*?><img.*?src=\"(.*?)\"",
+      "title": "<h3><a.*?>(.*?)</a></h3>",
+      "date": "<span class=\"icon-time\"></span>(.*)",
+      "address": "<span class=\"icon-place\"></span>(.*)",
+      "publisher": "<span class=\"name\".*?>(.*?)</span></a>"
+    }
+  }
+}

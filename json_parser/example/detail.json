@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "filter": [
+      "\r"
+    ],
+    "inner": [],
+    "fetchObject": {
+      "title": "<h2 class=\"media-heading\">(.*?)</h2>",
+      "datetime" : "<em class=\"icon-time\" title=\"活动时间\"></em>\\s*(.*)",
+      "address" : "<em class=\"icon-place\" title=\"活动地点\"></em>\\s*<a.*?>(.*?)</a>",
+      "publisher" : "<em class=\"icon-master\" title=\"活动发起人\"></em>\\s*<img.*?>(.*)</a>",
+      "img" : "<img class=\"pull-left media-object\" src=\"(.*?)\".*?>"
+    }
+  }
+}

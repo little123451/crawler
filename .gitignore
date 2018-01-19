@@ -1,0 +1,10 @@
+# Created by .ignore support plugin (hsz.mobi)
+/.idea/
+/log/*
+/core/login/cookie/*
+/output/*
+/input/*
+/test/*
+*.pyc
+.DS_Store
+/shell/
